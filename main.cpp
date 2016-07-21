@@ -170,11 +170,7 @@ int main() {
 		return -1;
 	}
 
-
-	ETHER_HDR eth;
-	ARP_HDR arp;
-
-	IP_ADAPTER_INFO *info = NULL, *pos;
+	IP_ADAPTER_INFO *info = NULL;
 	DWORD size = 0;
 
 	printf("dip : ");
